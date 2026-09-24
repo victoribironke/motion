@@ -7,7 +7,7 @@ import { Scene4CTA } from "./scenes/Scene4CTA";
 export const ReviePromo: React.FC = () => {
   return (
     <AbsoluteFill className="bg-parchment">
-      <Sequence from={0} durationInFrames={90}>
+      <Sequence durationInFrames={90}>
         <Scene1Problem />
       </Sequence>
       
